@@ -1,24 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@800&display=swap');
-
-* {background-color: #d4c8c6}
 
 h1 {
-    color: #c17A39;
-    text-align: center;
+    text-align: justify;
+    font-weight: 900;
+    letter-spacing: 15px;
+    font-family: Tahoma, serif;
+    font-weight: 100;
 }
+
+img {
+    max-width: 800px;
+    max-height: 800px;
+}
+
 header {
     text-align: center;
     box-sizing: border-box;
     margin: 0;
     background-color: #352e35;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
 }
 
-li, a, button {
+nav > li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -41,6 +46,8 @@ li, a, button {
 .nav_links li a:hover {
     color: #0088a9
 }
+
+
 button {
     padding: 9px 25px;
     background-color: rgba(0,136,169,1);
@@ -53,38 +60,33 @@ button:hover {
     background-color: rgba(0,136,169,0.8);
 }
 
-p {
-    color: #3F445B;
-    background-color: #df903a;
-}
-
-.content {
-    width: 600px;
-    height: 400px;
-    background-color: #dab697;
-
-    border-color: black;
-    border-style: solid;
+main {
     
 }
-.content p {
-    line-height: 2.5;
+main a {
+    color:blue;
+}
+
+
+.content {
+    width: 800px;
+    height: 600px;
+    box-sizing: border-box;
+    border: 4px solid black;
+    border-radius: 5%;
 }
 
 .ingredients {
-    width: 600px;
-    height: 400px;
-    background-color: #dab697;
-    border-color: black;
-    border-style: solid;
+    width: 800px;
+    height: 600px;
+    box-sizing: border-box;
+    border: 4px solid black;    
+    border-radius: 5%;
 }
-.ingredients h2 {
-
-}
-
 .instructions {
-    width: 600px;
-    height: 400px;
-    background-color:#0088a9;
+    width: 800px;
+    height: 600px;
+    box-sizing: border-box;
+    border: 4px solid black;
+    border-radius: 5%;
 }
-
